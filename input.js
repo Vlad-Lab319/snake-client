@@ -49,6 +49,14 @@ const handleUserInput = function (key) {
     // }, 1000);
   }
 
+  if (key === 'p') {
+    connection.write("Say: WooHoo!");
+    // setInterval(() => {
+    //   connection.write("Move: down");
+      
+    // }, 1000);
+  }
+
   console.log(key);
 
 };
