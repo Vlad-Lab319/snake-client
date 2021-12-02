@@ -14,18 +14,6 @@ const connect = function () {
     // code that does something when the connection is first established
     console.log("Connected!");
     conn.write('Name: V15');
-    conn.write("Move: up");
-    setTimeout(()=> {
-      conn.write("Move: left");
-      
-    }, 1000)
-    setInterval(() => {
-      conn.write("Move: up");
-      
-    }, 1000);
-    // conn.write("Move: left");
-    // conn.write("Move: down");
-    
     
   });
   
